@@ -1,0 +1,31 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "constants": "^0.0.2",
+    "cors": "^2.8.5",
+    "database": "^0.0.2",
+    "db": "^6.0.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "sqlite3": "^5.1.7",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "swagger": "^0.0.1"
+  }
+}
